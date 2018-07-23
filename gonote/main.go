@@ -24,11 +24,11 @@ import (
 const usage = `
   OVERVIEW:
 
-    notes scans Go source code files for notations
+    gonote scans Go source code files for notations
 
   USAGE:
 
-    notes [OPTIONS] TARGET
+    gonote [OPTIONS] TARGET
 
   TARGET:
 
@@ -63,8 +63,6 @@ func main() {
 	if err != nil {
 		log.Fatalf("unable to scan notes from target %s: %s", target, err)
 	}
-
-	print(*output)
 
 	switch *output {
 

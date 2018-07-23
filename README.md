@@ -36,11 +36,11 @@ To install:
 ```
   OVERVIEW:
 
-    notes scans Go source code files for notations
+    gonote scans Go source code files for notations
 
   USAGE:
 
-    notes [OPTIONS] TARGET
+    gonote [OPTIONS] TARGET
 
   TARGET:
 
